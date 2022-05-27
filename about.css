@@ -1,0 +1,40 @@
+
+body {
+    background-color: yellow;
+    
+}
+
+p {
+    font-family: font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+    font-weight: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+
+}
+
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 200%;
+    font-weight: 200px; 
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+iframe {
+    border: black solid 5px;
+    float: right;
+    margin-left: 20px;
+}
+
+.signature {
+
+    font-family: 'Parisienne', cursive;;
+    font-size: 26px;
+    font-weight: bolder;
+}
+

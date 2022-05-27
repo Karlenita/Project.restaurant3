@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+.logo {
+    height: 105px;
+    width: 150 px;
+    padding: 5px 0;
+  
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 250%;
+    font-weight: 200px; 
+    text-align: center;
+}
+
+.slogan {
+    font-family: 'Indie Flower', cursive; 
+    font-size: 125%;
+    font-weight: 100px; 
+    text-align: center;
+    color: yellow;
+
+    animation-name: slogan;
+    animation-duration: 8s;
+    position: relative;
+}
+
+@keyframes slogan {
+    0% {color: yellow; top: 30px}
+    25% {color: black; bottom: 30px;}
+    50% {color:red; bottom: 30px}
+    75% {color:black; top: 30px}
+    100% {color: yellow; top: 30px;}
+}
+
+.menu_bar {
+    background-color: yellowgreen;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+.menu_bar ul {
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+.menu_bar ul li {
+    padding: 10px 20px;
+    position: relative;
+}
+ 
+.menu_bar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 22 px;
+    font-weight: bold;
+
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+    color: yellow
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position:absolute; 
+    left: 0;
+    top: 100%;
+    background-color:green;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+        display: block;
+        margin: 10px;    
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 100px;
+    padding: 10px;
+}
+/*
+.fas {
+    float:right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+/*
+
